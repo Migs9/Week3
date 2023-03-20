@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Stranger back in the Night";
+    src: url(./fonts/Stranger\ back\ in\ the\ Night.ttf);
+}
+
+@font-face {
+    font-family: "Cute Notes";
+    src: url(./fonts/Cute\ Notes.ttf);
+}
+
+body {
+    text-align: center;
+    background-image: url(./images/drumgif4.gif);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+button {
+    font-family: "Cute Notes";
+    border: none;
+    background: transparent;
+    font-size: 5rem;
+    min-width: 125px;
+    margin: 15px;
+    color: #fff;
+    margin: auto;
+    padding: 15px;
+    transition: 0.5s;
+
+}
+
+button p{
+    font-family: "Stranger back in the Night";
+    font-size: 75px;
+    margin: 15px;
+}
+
+button:active {
+    transform: translate(20px, 70px);
+    font-size: 110px;
+}
